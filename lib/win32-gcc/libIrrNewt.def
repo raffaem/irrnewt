@@ -1,0 +1,780 @@
+; dlltool --base-file C:\DOCUME~1\Raffaele\IMPOST~1\Temp/cca03344.base --output-exp IrrNewt.exp --dllname IrrNewt.dll --output-def libIrrNewt.def --exclude-symbol=DllMainCRTStartup@12 --def C:\DOCUME~1\Raffaele\IMPOST~1\Temp/cca03344.def --output-lib libIrrNewt.a
+EXPORTS
+;	irr::newton::ICollision::getPolyCount()
+	_ZN3irr6newton10ICollision12getPolyCountEv @ 1
+;	irr::newton::ICollision::calculateVolume()
+	_ZN3irr6newton10ICollision15calculateVolumeEv @ 2
+;	irr::newton::ICollision::getCreationData()
+	_ZN3irr6newton10ICollision15getCreationDataEv @ 3
+;	irr::newton::ICollision::reserved_destroy()
+	_ZN3irr6newton10ICollision16reserved_destroyEv @ 4
+;	irr::newton::ICollision::getNewtonCollision()
+	_ZN3irr6newton10ICollision18getNewtonCollisionEv @ 5
+;	irr::newton::ICollision::getSkippedFaceCount()
+	_ZN3irr6newton10ICollision19getSkippedFaceCountEv @ 6
+;	irr::newton::ICollision::calculateInertialMatrix(irr::core::vector3d<float>&, irr::core::vector3d<float>&)
+	_ZN3irr6newton10ICollision23calculateInertialMatrixERNS_4core8vector3dIfEES5_ @ 7
+;	irr::newton::ICollision::create(irr::newton::SBodyFromNode)
+	_ZN3irr6newton10ICollision6createENS0_13SBodyFromNodeE @ 8
+;	irr::newton::ICollision::create(irr::core::array<irr::newton::ICollision*, irr::core::irrAllocator<irr::newton::ICollision*> >)
+	_ZN3irr6newton10ICollision6createENS_4core5arrayIPS1_NS2_12irrAllocatorIS4_EEEE @ 9
+;	irr::newton::ICollision::release()
+	_ZN3irr6newton10ICollision7releaseEv @ 10
+;	irr::newton::ICollision::getUserID()
+	_ZN3irr6newton10ICollision9getUserIDEv @ 11
+;	irr::newton::ICollision::setUserID(unsigned int)
+	_ZN3irr6newton10ICollision9setUserIDEj @ 12
+;	irr::newton::ICollision::ICollision(irr::newton::IWorld*)
+	_ZN3irr6newton10ICollisionC1EPNS0_6IWorldE @ 13
+;	irr::newton::ICollision::~ICollision()
+	_ZN3irr6newton10ICollisionD1Ev @ 14
+;	irr::newton::IJointBall::setConeLimits(irr::core::vector3d<float>, float, float)
+	_ZN3irr6newton10IJointBall13setConeLimitsENS_4core8vector3dIfEEff @ 15
+;	irr::newton::IJointBall::reserved_destroy()
+	_ZN3irr6newton10IJointBall16reserved_destroyEv @ 16
+;	irr::newton::IJointBall::IJointBall(irr::newton::IWorld*, irr::newton::SJointBall)
+	_ZN3irr6newton10IJointBallC1EPNS0_6IWorldENS0_10SJointBallE @ 17
+;	irr::newton::IJointBall::IJointBall(irr::newton::IWorld*, irr::newton::SJointBall)
+	_ZN3irr6newton10IJointBallC2EPNS0_6IWorldENS0_10SJointBallE @ 18
+;	irr::newton::IJointBall::~IJointBall()
+	_ZN3irr6newton10IJointBallD1Ev @ 19
+;	irr::newton::IJointHinge::reserved_destroy()
+	_ZN3irr6newton11IJointHinge16reserved_destroyEv @ 20
+;	irr::newton::IJointHinge::IJointHinge(irr::newton::IWorld*, irr::newton::SJointHinge)
+	_ZN3irr6newton11IJointHingeC1EPNS0_6IWorldENS0_11SJointHingeE @ 21
+;	irr::newton::IJointHinge::IJointHinge(irr::newton::IWorld*, irr::newton::SJointHinge)
+	_ZN3irr6newton11IJointHingeC2EPNS0_6IWorldENS0_11SJointHingeE @ 22
+;	irr::newton::IJointHinge::~IJointHinge()
+	_ZN3irr6newton11IJointHingeD1Ev @ 23
+;	irr::newton::IJointSlider::reserved_destroy()
+	_ZN3irr6newton12IJointSlider16reserved_destroyEv @ 24
+;	irr::newton::IJointSlider::IJointSlider(irr::newton::IWorld*, irr::newton::SJointSlider)
+	_ZN3irr6newton12IJointSliderC1EPNS0_6IWorldENS0_12SJointSliderE @ 25
+;	irr::newton::IJointSlider::IJointSlider(irr::newton::IWorld*, irr::newton::SJointSlider)
+	_ZN3irr6newton12IJointSliderC2EPNS0_6IWorldENS0_12SJointSliderE @ 26
+;	irr::newton::IJointSlider::~IJointSlider()
+	_ZN3irr6newton12IJointSliderD1Ev @ 27
+;	irr::newton::IRagDollBone::reserved_destroy()
+	_ZN3irr6newton12IRagDollBone16reserved_destroyEv @ 28
+;	irr::newton::IRagDollBone::getBody()
+	_ZN3irr6newton12IRagDollBone7getBodyEv @ 29
+;	irr::newton::IRagDollBone::getNode()
+	_ZN3irr6newton12IRagDollBone7getNodeEv @ 30
+;	irr::newton::IRagDollBone::IRagDollBone()
+	_ZN3irr6newton12IRagDollBoneC1Ev @ 31
+;	irr::newton::IRagDollBone::~IRagDollBone()
+	_ZN3irr6newton12IRagDollBoneD1Ev @ 32
+;	irr::newton::IVehicleTire::Initialize()
+	_ZN3irr6newton12IVehicleTire10InitializeEv @ 33
+;	irr::newton::IVehicleTire::getPosition()
+	_ZN3irr6newton12IVehicleTire11getPositionEv @ 34
+;	irr::newton::IVehicleTire::getRotation()
+	_ZN3irr6newton12IVehicleTire11getRotationEv @ 35
+;	irr::newton::IVehicleTire::getSteerAngle()
+	_ZN3irr6newton12IVehicleTire13getSteerAngleEv @ 36
+;	irr::newton::IVehicleTire::reserved_destroy()
+	_ZN3irr6newton12IVehicleTire16reserved_destroyEv @ 37
+;	irr::newton::IVehicleTire::getPositionRotation()
+	_ZN3irr6newton12IVehicleTire19getPositionRotationEv @ 38
+;	irr::newton::IVehicleTire::remove()
+	_ZN3irr6newton12IVehicleTire6removeEv @ 39
+;	irr::newton::IVehicleTire::getMatrix()
+	_ZN3irr6newton12IVehicleTire9getMatrixEv @ 40
+;	irr::newton::IVehicleTire::getTorque()
+	_ZN3irr6newton12IVehicleTire9getTorqueEv @ 41
+;	irr::newton::IVehicleTire::IVehicleTire(irr::newton::IVehicleSimple*, irr::core::vector3d<float>, float, float, float, float, float, float, int, irr::scene::ISceneNode*, irr::newton::SPosRot)
+	_ZN3irr6newton12IVehicleTireC1EPNS0_14IVehicleSimpleENS_4core8vector3dIfEEffffffiPNS_5scene10ISceneNodeENS0_7SPosRotE @ 42
+;	irr::newton::IVehicleTire::IVehicleTire(irr::newton::IVehicleTire const&)
+	_ZN3irr6newton12IVehicleTireC1ERKS1_ @ 43
+;	irr::newton::IVehicleTire::IVehicleTire(irr::newton::IVehicleSimple*, irr::core::vector3d<float>, float, float, float, float, float, float, int, irr::scene::ISceneNode*, irr::newton::SPosRot)
+	_ZN3irr6newton12IVehicleTireC2EPNS0_14IVehicleSimpleENS_4core8vector3dIfEEffffffiPNS_5scene10ISceneNodeENS0_7SPosRotE @ 44
+;	irr::newton::IVehicleTire::IVehicleTire(irr::newton::IVehicleTire const&)
+	_ZN3irr6newton12IVehicleTireC2ERKS1_ @ 45
+;	irr::newton::IVehicleTire::~IVehicleTire()
+	_ZN3irr6newton12IVehicleTireD1Ev @ 46
+;	irr::newton::IVehicleTire::~IVehicleTire()
+	_ZN3irr6newton12IVehicleTireD2Ev @ 47
+;	irr::newton::IrrNewt_Base::call_delete()
+	_ZN3irr6newton12IrrNewt_Base11call_deleteEv @ 48
+;	irr::newton::IrrNewt_Base::IrrNewt_Base()
+	_ZN3irr6newton12IrrNewt_BaseC1Ev @ 49
+;	irr::newton::IrrNewt_Base::IrrNewt_Base()
+	_ZN3irr6newton12IrrNewt_BaseC2Ev @ 50
+;	irr::newton::getLogStatus()
+	_ZN3irr6newton12getLogStatusEv @ 51
+;	irr::newton::setLogStatus(bool)
+	_ZN3irr6newton12setLogStatusEb @ 52
+;	irr::newton::IMaterialPair::disableContact()
+	_ZN3irr6newton13IMaterialPair14disableContactEv @ 53
+;	irr::newton::IMaterialPair::getContactForce()
+	_ZN3irr6newton13IMaterialPair15getContactForceEv @ 54
+;	irr::newton::IMaterialPair::getContactNormal()
+	_ZN3irr6newton13IMaterialPair16getContactNormalEv @ 55
+;	irr::newton::IMaterialPair::getContactPosition()
+	_ZN3irr6newton13IMaterialPair18getContactPositionEv @ 56
+;	irr::newton::IMaterialPair::getCurrentTimeStep()
+	_ZN3irr6newton13IMaterialPair18getCurrentTimeStepEv @ 57
+;	irr::newton::IMaterialPair::setContactSoftness(float)
+	_ZN3irr6newton13IMaterialPair18setContactSoftnessEf @ 58
+;	irr::newton::IMaterialPair::setContactElasticity(float)
+	_ZN3irr6newton13IMaterialPair20setContactElasticityEf @ 59
+;	irr::newton::IMaterialPair::getNewtonMaterialPair()
+	_ZN3irr6newton13IMaterialPair21getNewtonMaterialPairEv @ 60
+;	irr::newton::IMaterialPair::getContactFaceAttribute()
+	_ZN3irr6newton13IMaterialPair23getContactFaceAttributeEv @ 61
+;	irr::newton::IMaterialPair::setContactFrictionState(int, bool)
+	_ZN3irr6newton13IMaterialPair23setContactFrictionStateEib @ 62
+;	irr::newton::IMaterialPair::getContactTangentDirections(irr::core::vector3d<float>&, irr::core::vector3d<float>&)
+	_ZN3irr6newton13IMaterialPair27getContactTangentDirectionsERNS_4core8vector3dIfEES5_ @ 63
+;	irr::newton::IMaterialPair::IMaterialPair(NewtonMaterial*)
+	_ZN3irr6newton13IMaterialPairC1EP14NewtonMaterial @ 64
+;	irr::newton::IMaterialPair::IMaterialPair(NewtonMaterial*)
+	_ZN3irr6newton13IMaterialPairC2EP14NewtonMaterial @ 65
+;	irr::newton::IMaterialPair::~IMaterialPair()
+	_ZN3irr6newton13IMaterialPairD1Ev @ 66
+;	irr::newton::IMaterialPair::~IMaterialPair()
+	_ZN3irr6newton13IMaterialPairD2Ev @ 67
+;	irr::newton::ICameraBodyFPS::pressedDown(irr::EKEY_ACTION)
+	_ZN3irr6newton14ICameraBodyFPS11pressedDownENS_11EKEY_ACTIONE @ 68
+;	irr::newton::ICameraBodyFPS::updatePause()
+	_ZN3irr6newton14ICameraBodyFPS11updatePauseEv @ 69
+;	irr::newton::ICameraBodyFPS::reserved_destroy()
+	_ZN3irr6newton14ICameraBodyFPS16reserved_destroyEv @ 70
+;	irr::newton::ICameraBodyFPS::leftUp(irr::EKEY_ACTION)
+	_ZN3irr6newton14ICameraBodyFPS6leftUpENS_11EKEY_ACTIONE @ 71
+;	irr::newton::ICameraBodyFPS::OnEvent(irr::SEvent)
+	_ZN3irr6newton14ICameraBodyFPS7OnEventENS_6SEventE @ 72
+;	irr::newton::ICameraBodyFPS::setPause(unsigned int)
+	_ZN3irr6newton14ICameraBodyFPS8setPauseEj @ 73
+;	irr::newton::ICameraBodyFPS::setKeyMap(irr::SKeyMap*, unsigned int)
+	_ZN3irr6newton14ICameraBodyFPS9setKeyMapEPNS_7SKeyMapEj @ 74
+;	irr::newton::ICameraBodyFPS::ICameraBodyFPS(irr::newton::ICharacterController*)
+	_ZN3irr6newton14ICameraBodyFPSC1EPNS0_20ICharacterControllerE @ 75
+;	irr::newton::ICameraBodyFPS::ICameraBodyFPS(irr::newton::ICharacterController*)
+	_ZN3irr6newton14ICameraBodyFPSC2EPNS0_20ICharacterControllerE @ 76
+;	irr::newton::IJointUpVector::reserved_destroy()
+	_ZN3irr6newton14IJointUpVector16reserved_destroyEv @ 77
+;	irr::newton::IJointUpVector::getPin()
+	_ZN3irr6newton14IJointUpVector6getPinEv @ 78
+;	irr::newton::IJointUpVector::setPin(irr::core::vector3d<float>)
+	_ZN3irr6newton14IJointUpVector6setPinENS_4core8vector3dIfEE @ 79
+;	irr::newton::IJointUpVector::IJointUpVector(irr::newton::IWorld*, irr::newton::SJointUpVector)
+	_ZN3irr6newton14IJointUpVectorC1EPNS0_6IWorldENS0_14SJointUpVectorE @ 80
+;	irr::newton::IJointUpVector::IJointUpVector(irr::newton::IWorld*, irr::newton::SJointUpVector)
+	_ZN3irr6newton14IJointUpVectorC2EPNS0_6IWorldENS0_14SJointUpVectorE @ 81
+;	irr::newton::IJointUpVector::~IJointUpVector()
+	_ZN3irr6newton14IJointUpVectorD1Ev @ 82
+;	irr::newton::IVehicleSimple::Initialize()
+	_ZN3irr6newton14IVehicleSimple10InitializeEv @ 83
+;	irr::newton::IVehicleSimple::createTire(irr::newton::STire)
+	_ZN3irr6newton14IVehicleSimple10createTireENS0_5STireE @ 84
+;	irr::newton::IVehicleSimple::createTire(irr::scene::ISceneNode*, irr::core::vector3d<float>, float, float, float, irr::newton::SPosRot, float, float, float)
+	_ZN3irr6newton14IVehicleSimple10createTireEPNS_5scene10ISceneNodeENS_4core8vector3dIfEEfffNS0_7SPosRotEfff @ 85
+;	irr::newton::IVehicleSimple::getChassis()
+	_ZN3irr6newton14IVehicleSimple10getChassisEv @ 86
+;	irr::newton::IVehicleSimple::getAllTires()
+	_ZN3irr6newton14IVehicleSimple11getAllTiresEv @ 87
+;	irr::newton::IVehicleSimple::getNextTire(irr::newton::IVehicleTire*)
+	_ZN3irr6newton14IVehicleSimple11getNextTireEPNS0_12IVehicleTireE @ 88
+;	irr::newton::IVehicleSimple::getFirstTire()
+	_ZN3irr6newton14IVehicleSimple12getFirstTireEv @ 89
+;	irr::newton::IVehicleSimple::reserved_destroy()
+	_ZN3irr6newton14IVehicleSimple16reserved_destroyEv @ 90
+;	irr::newton::IVehicleSimple::reset()
+	_ZN3irr6newton14IVehicleSimple5resetEv @ 91
+;	irr::newton::IVehicleSimple::getWorld()
+	_ZN3irr6newton14IVehicleSimple8getWorldEv @ 92
+;	irr::newton::IVehicleSimple::IVehicleSimple(irr::newton::IWorld*, irr::newton::IBody*, irr::core::vector3d<float>)
+	_ZN3irr6newton14IVehicleSimpleC1EPNS0_6IWorldEPNS0_5IBodyENS_4core8vector3dIfEE @ 93
+;	irr::newton::IVehicleSimple::IVehicleSimple(irr::newton::IVehicleSimple const&)
+	_ZN3irr6newton14IVehicleSimpleC1ERKS1_ @ 94
+;	irr::newton::IVehicleSimple::IVehicleSimple(irr::newton::IWorld*, irr::newton::IBody*, irr::core::vector3d<float>)
+	_ZN3irr6newton14IVehicleSimpleC2EPNS0_6IWorldEPNS0_5IBodyENS_4core8vector3dIfEE @ 95
+;	irr::newton::IVehicleSimple::IVehicleSimple(irr::newton::IVehicleSimple const&)
+	_ZN3irr6newton14IVehicleSimpleC2ERKS1_ @ 96
+;	irr::newton::IVehicleSimple::~IVehicleSimple()
+	_ZN3irr6newton14IVehicleSimpleD1Ev @ 97
+;	irr::newton::IVehicleSimple::~IVehicleSimple()
+	_ZN3irr6newton14IVehicleSimpleD2Ev @ 98
+;	irr::newton::IJointCorkscrew::reserved_destroy()
+	_ZN3irr6newton15IJointCorkscrew16reserved_destroyEv @ 99
+;	irr::newton::IJointCorkscrew::IJointCorkscrew(irr::newton::IWorld*, irr::newton::SJointCorkscrew)
+	_ZN3irr6newton15IJointCorkscrewC1EPNS0_6IWorldENS0_15SJointCorkscrewE @ 100
+;	irr::newton::IJointCorkscrew::IJointCorkscrew(irr::newton::IWorld*, irr::newton::SJointCorkscrew)
+	_ZN3irr6newton15IJointCorkscrewC2EPNS0_6IWorldENS0_15SJointCorkscrewE @ 101
+;	irr::newton::IJointCorkscrew::~IJointCorkscrew()
+	_ZN3irr6newton15IJointCorkscrewD1Ev @ 102
+;	irr::newton::IJointUniversal::reserved_destroy()
+	_ZN3irr6newton15IJointUniversal16reserved_destroyEv @ 103
+;	irr::newton::IJointUniversal::IJointUniversal(irr::newton::IWorld*, irr::newton::SJointUniversal)
+	_ZN3irr6newton15IJointUniversalC1EPNS0_6IWorldENS0_15SJointUniversalE @ 104
+;	irr::newton::IJointUniversal::IJointUniversal(irr::newton::IWorld*, irr::newton::SJointUniversal)
+	_ZN3irr6newton15IJointUniversalC2EPNS0_6IWorldENS0_15SJointUniversalE @ 105
+;	irr::newton::IJointUniversal::~IJointUniversal()
+	_ZN3irr6newton15IJointUniversalD1Ev @ 106
+;	irr::newton::IMaterialContact::getNewtonMaterialContact()
+	_ZN3irr6newton16IMaterialContact24getNewtonMaterialContactEv @ 107
+;	irr::newton::IMaterialContact::IMaterialContact(NewtonContact*)
+	_ZN3irr6newton16IMaterialContactC2EP13NewtonContact @ 108
+;	irr::newton::ICollisionManager::getClosestPoint(irr::newton::IBody*, irr::core::vector3d<float>, irr::core::vector3d<float>&, irr::core::vector3d<float>&)
+	_ZN3irr6newton17ICollisionManager15getClosestPointEPNS0_5IBodyENS_4core8vector3dIfEERS6_S7_ @ 109
+;	irr::newton::ICollisionManager::getClosestPoint(irr::newton::IBody*, irr::newton::IBody*, irr::core::vector3d<float>&, irr::core::vector3d<float>&, irr::core::vector3d<float>&)
+	_ZN3irr6newton17ICollisionManager15getClosestPointEPNS0_5IBodyES3_RNS_4core8vector3dIfEES7_S7_ @ 110
+;	irr::newton::ICollisionManager::reserved_destroy()
+	_ZN3irr6newton17ICollisionManager16reserved_destroyEv @ 111
+;	irr::newton::ICollisionManager::getCollisionPoint(irr::newton::IBody*, irr::core::line3d<float>, irr::newton::SIntersectionPoint&)
+	_ZN3irr6newton17ICollisionManager17getCollisionPointEPNS0_5IBodyENS_4core6line3dIfEERNS0_18SIntersectionPointE @ 112
+;	irr::newton::ICollisionManager::getCollisionPoints(irr::core::line3d<float>, irr::core::array<irr::newton::SIntersectionPoint, irr::core::irrAllocator<irr::newton::SIntersectionPoint> >*)
+	_ZN3irr6newton17ICollisionManager18getCollisionPointsENS_4core6line3dIfEEPNS2_5arrayINS0_18SIntersectionPointENS2_12irrAllocatorIS6_EEEE @ 113
+;	irr::newton::ICollisionManager::getCollisionFirstPoint(irr::core::line3d<float>)
+	_ZN3irr6newton17ICollisionManager22getCollisionFirstPointENS_4core6line3dIfEE @ 114
+;	irr::newton::ICollisionManager::getCollisionFirstPointEx(irr::core::line3d<float>)
+	_ZN3irr6newton17ICollisionManager24getCollisionFirstPointExENS_4core6line3dIfEE @ 115
+;	irr::newton::ICollisionManager::getCollisionFirstPointEx(irr::core::line3d<float>, irr::core::array<irr::newton::IBody*, irr::core::irrAllocator<irr::newton::IBody*> >)
+	_ZN3irr6newton17ICollisionManager24getCollisionFirstPointExENS_4core6line3dIfEENS2_5arrayIPNS0_5IBodyENS2_12irrAllocatorIS7_EEEE @ 116
+;	irr::newton::ICollisionManager::collide(irr::newton::IBody*, irr::newton::IBody*, unsigned int, irr::core::array<irr::core::vector3d<float>, irr::core::irrAllocator<irr::core::vector3d<float> > >&, irr::core::array<irr::core::vector3d<float>, irr::core::irrAllocator<irr::core::vector3d<float> > >&, irr::core::array<float, irr::core::irrAllocator<float> >&)
+	_ZN3irr6newton17ICollisionManager7collideEPNS0_5IBodyES3_jRNS_4core5arrayINS4_8vector3dIfEENS4_12irrAllocatorIS7_EEEESB_RNS5_IfNS8_IfEEEE @ 117
+;	irr::newton::ICollisionManager::ICollisionManager(NewtonWorld*)
+	_ZN3irr6newton17ICollisionManagerC1EP11NewtonWorld @ 118
+;	irr::newton::ICollisionManager::ICollisionManager()
+	_ZN3irr6newton17ICollisionManagerC1Ev @ 119
+;	irr::newton::ICollisionManager::ICollisionManager(NewtonWorld*)
+	_ZN3irr6newton17ICollisionManagerC2EP11NewtonWorld @ 120
+;	irr::newton::ICollisionManager::ICollisionManager()
+	_ZN3irr6newton17ICollisionManagerC2Ev @ 121
+;	irr::newton::createPhysicsWorld(irr::IrrlichtDevice*)
+	_ZN3irr6newton18createPhysicsWorldEPNS_14IrrlichtDeviceE @ 122
+;	irr::newton::ICharacterController::setVelocity(irr::core::vector3d<float>)
+	_ZN3irr6newton20ICharacterController11setVelocityENS_4core8vector3dIfEE @ 123
+;	irr::newton::ICharacterController::setScaleBody(irr::core::vector3d<float>)
+	_ZN3irr6newton20ICharacterController12setScaleBodyENS_4core8vector3dIfEE @ 124
+;	irr::newton::ICharacterController::rotateFromMouse(irr::SEvent&, float)
+	_ZN3irr6newton20ICharacterController15rotateFromMouseERNS_6SEventEf @ 125
+;	irr::newton::ICharacterController::reserved_destroy()
+	_ZN3irr6newton20ICharacterController16reserved_destroyEv @ 126
+;	irr::newton::ICharacterController::restoreCallbacks()
+	_ZN3irr6newton20ICharacterController16restoreCallbacksEv @ 127
+;	irr::newton::ICharacterController::getRotationUpdate()
+	_ZN3irr6newton20ICharacterController17getRotationUpdateEv @ 128
+;	irr::newton::ICharacterController::setRotationUpdate(bool)
+	_ZN3irr6newton20ICharacterController17setRotationUpdateEb @ 129
+;	irr::newton::ICharacterController::getClimbStairForce()
+	_ZN3irr6newton20ICharacterController18getClimbStairForceEv @ 130
+;	irr::newton::ICharacterController::setCorrectCallback()
+	_ZN3irr6newton20ICharacterController18setCorrectCallbackEv @ 131
+;	irr::newton::ICharacterController::getDirectionPositionY(irr::core::vector3d<float>)
+	_ZN3irr6newton20ICharacterController21getDirectionPositionYENS_4core8vector3dIfEE @ 132
+;	irr::newton::ICharacterController::getDirectionPositionXY(irr::core::vector3d<float>)
+	_ZN3irr6newton20ICharacterController22getDirectionPositionXYENS_4core8vector3dIfEE @ 133
+;	irr::newton::ICharacterController::FRIgetDirectionPositionY(irr::core::vector3d<float>)
+	_ZN3irr6newton20ICharacterController24FRIgetDirectionPositionYENS_4core8vector3dIfEE @ 134
+;	irr::newton::ICharacterController::FRIgetDirectionPositionXY(irr::core::vector3d<float>)
+	_ZN3irr6newton20ICharacterController25FRIgetDirectionPositionXYENS_4core8vector3dIfEE @ 135
+;	irr::newton::ICharacterController::getLastDirectionParameter()
+	_ZN3irr6newton20ICharacterController25getLastDirectionParameterEv @ 136
+;	irr::newton::ICharacterController::getDirectionAbsolutePositionY(irr::core::vector3d<float>)
+	_ZN3irr6newton20ICharacterController29getDirectionAbsolutePositionYENS_4core8vector3dIfEE @ 137
+;	irr::newton::ICharacterController::getDirectionAbsolutePositionXY(irr::core::vector3d<float>)
+	_ZN3irr6newton20ICharacterController30getDirectionAbsolutePositionXYENS_4core8vector3dIfEE @ 138
+;	irr::newton::ICharacterController::FRIgetDirectionAbsolutePositionY(irr::core::vector3d<float>)
+	_ZN3irr6newton20ICharacterController32FRIgetDirectionAbsolutePositionYENS_4core8vector3dIfEE @ 139
+;	irr::newton::ICharacterController::FRIgetDirectionAbsolutePositionXY(irr::core::vector3d<float>)
+	_ZN3irr6newton20ICharacterController33FRIgetDirectionAbsolutePositionXYENS_4core8vector3dIfEE @ 140
+;	irr::newton::ICharacterController::adjustRotationForDirectionFunctions()
+	_ZN3irr6newton20ICharacterController35adjustRotationForDirectionFunctionsEv @ 141
+;	irr::newton::ICharacterController::jump(float, float)
+	_ZN3irr6newton20ICharacterController4jumpEff @ 142
+;	irr::newton::ICharacterController::stand(float, float)
+	_ZN3irr6newton20ICharacterController5standEff @ 143
+;	irr::newton::ICharacterController::crouch(float)
+	_ZN3irr6newton20ICharacterController6crouchEf @ 144
+;	irr::newton::ICharacterController::addForce(irr::core::vector3d<float>)
+	_ZN3irr6newton20ICharacterController8addForceENS_4core8vector3dIfEE @ 145
+;	irr::newton::ICharacterController::setForce(irr::core::vector3d<float>)
+	_ZN3irr6newton20ICharacterController8setForceENS_4core8vector3dIfEE @ 146
+;	irr::newton::ICharacterController::ICharacterController(irr::newton::ICharacterController*)
+	_ZN3irr6newton20ICharacterControllerC1EPS1_ @ 147
+;	irr::newton::ICharacterController::ICharacterController(irr::newton::ICharacterController*)
+	_ZN3irr6newton20ICharacterControllerC2EPS1_ @ 148
+;	irr::newton::ICharacterController::~ICharacterController()
+	_ZN3irr6newton20ICharacterControllerD1Ev @ 149
+;	irr::newton::ICharacterController::~ICharacterController()
+	_ZN3irr6newton20ICharacterControllerD2Ev @ 150
+;	irr::newton::IMaterialPairAndContact::getContactNormalSpeed()
+	_ZN3irr6newton23IMaterialPairAndContact21getContactNormalSpeedEv @ 151
+;	irr::newton::IMaterialPairAndContact::getContactTangentSpeed(bool)
+	_ZN3irr6newton23IMaterialPairAndContact22getContactTangentSpeedEb @ 152
+;	irr::newton::IMaterialPairAndContact::IMaterialPairAndContact(NewtonMaterial*, NewtonContact*)
+	_ZN3irr6newton23IMaterialPairAndContactC1EP14NewtonMaterialP13NewtonContact @ 153
+;	irr::newton::ICar::ICar(irr::newton::IWorld*, irr::newton::SCar)
+	_ZN3irr6newton4ICarC1EPNS0_6IWorldENS0_4SCarE @ 154
+;	irr::newton::ICar::ICar(irr::newton::IWorld*, irr::newton::SCar)
+	_ZN3irr6newton4ICarC2EPNS0_6IWorldENS0_4SCarE @ 155
+;	irr::newton::IBody::addImpulse(irr::core::vector3d<float>, irr::core::vector3d<float>)
+	_ZN3irr6newton5IBody10addImpulseENS_4core8vector3dIfEES4_ @ 156
+;	irr::newton::IBody::removeBody()
+	_ZN3irr6newton5IBody10removeBodyEv @ 157
+;	irr::newton::IBody::getPosition()
+	_ZN3irr6newton5IBody11getPositionEv @ 158
+;	irr::newton::IBody::getVelocity()
+	_ZN3irr6newton5IBody11getVelocityEv @ 159
+;	irr::newton::IBody::setMaterial(irr::newton::IMaterial*)
+	_ZN3irr6newton5IBody11setMaterialEPNS0_9IMaterialE @ 160
+;	irr::newton::IBody::setPosition(irr::core::vector3d<float>)
+	_ZN3irr6newton5IBody11setPositionENS_4core8vector3dIfEE @ 161
+;	irr::newton::IBody::setRotation(irr::core::vector3d<float>)
+	_ZN3irr6newton5IBody11setRotationENS_4core8vector3dIfEE @ 162
+;	irr::newton::IBody::setVelocity(irr::core::vector3d<float>)
+	_ZN3irr6newton5IBody11setVelocityENS_4core8vector3dIfEE @ 163
+;	irr::newton::IBody::setCollision(irr::newton::ICollision*)
+	_ZN3irr6newton5IBody12setCollisionEPNS0_10ICollisionE @ 164
+;	irr::newton::IBody::setScaleBody(irr::core::vector3d<float>)
+	_ZN3irr6newton5IBody12setScaleBodyENS_4core8vector3dIfEE @ 165
+;	irr::newton::IBody::addLocalForce(irr::core::vector3d<float>, irr::core::vector3d<float>)
+	_ZN3irr6newton5IBody13addLocalForceENS_4core8vector3dIfEES4_ @ 166
+;	irr::newton::IBody::calculateAABB()
+	_ZN3irr6newton5IBody13calculateAABBEv @ 167
+;	irr::newton::IBody::drawDebugInfo()
+	_ZN3irr6newton5IBody13drawDebugInfoEv @ 168
+;	irr::newton::IBody::getNewtonBody()
+	_ZN3irr6newton5IBody13getNewtonBodyEv @ 169
+;	irr::newton::IBody::setAutoFreeze(bool)
+	_ZN3irr6newton5IBody13setAutoFreezeEb @ 170
+;	irr::newton::IBody::addGlobalForce(irr::core::vector3d<float>, irr::core::vector3d<float>)
+	_ZN3irr6newton5IBody14addGlobalForceENS_4core8vector3dIfEES4_ @ 171
+;	irr::newton::IBody::getAllPoligons()
+	_ZN3irr6newton5IBody14getAllPoligonsEv @ 172
+;	irr::newton::IBody::getNewtonWorld()
+	_ZN3irr6newton5IBody14getNewtonWorldEv @ 173
+;	irr::newton::IBody::getCentreOfMass()
+	_ZN3irr6newton5IBody15getCentreOfMassEv @ 174
+;	irr::newton::IBody::getMatrixNewton()
+	_ZN3irr6newton5IBody15getMatrixNewtonEv @ 175
+;	irr::newton::IBody::getNewtonMatrix()
+	_ZN3irr6newton5IBody15getNewtonMatrixEv @ 176
+;	irr::newton::IBody::getPositionBody()
+	_ZN3irr6newton5IBody15getPositionBodyEv @ 177
+;	irr::newton::IBody::getRotationBody()
+	_ZN3irr6newton5IBody15getRotationBodyEv @ 178
+;	irr::newton::IBody::setCentreOfMass(irr::core::vector3d<float>)
+	_ZN3irr6newton5IBody15setCentreOfMassENS_4core8vector3dIfEE @ 179
+;	irr::newton::IBody::setMatrixNewton(irr::core::matrix4)
+	_ZN3irr6newton5IBody15setMatrixNewtonENS_4core7matrix4E @ 180
+;	irr::newton::IBody::setRotationBody(irr::core::vector3d<float>)
+	_ZN3irr6newton5IBody15setRotationBodyENS_4core8vector3dIfEE @ 181
+;	irr::newton::IBody::reserved_destroy()
+	_ZN3irr6newton5IBody16reserved_destroyEv @ 182
+;	irr::newton::IBody::restoreCallbacks()
+	_ZN3irr6newton5IBody16restoreCallbacksEv @ 183
+;	irr::newton::IBody::setLinearDamping(float)
+	_ZN3irr6newton5IBody16setLinearDampingEf @ 184
+;	irr::newton::IBody::getFreezeTreshold(float*, float*)
+	_ZN3irr6newton5IBody17getFreezeTresholdEPfS2_ @ 185
+;	irr::newton::IBody::getMatrixIrrlicht()
+	_ZN3irr6newton5IBody17getMatrixIrrlichtEv @ 186
+;	irr::newton::IBody::setAngularDamping(irr::core::vector3d<float>)
+	_ZN3irr6newton5IBody17setAngularDampingENS_4core8vector3dIfEE @ 187
+;	irr::newton::IBody::setFreezeTreshold(float, float, int)
+	_ZN3irr6newton5IBody17setFreezeTresholdEffi @ 188
+;	irr::newton::IBody::setMatrixIrrlicht(irr::core::matrix4)
+	_ZN3irr6newton5IBody17setMatrixIrrlichtENS_4core7matrix4E @ 189
+;	irr::newton::IBody::addForceContinuous(irr::core::vector3d<float>)
+	_ZN3irr6newton5IBody18addForceContinuousENS_4core8vector3dIfEE @ 190
+;	irr::newton::IBody::getMomentOfInertia()
+	_ZN3irr6newton5IBody18getMomentOfInertiaEv @ 191
+;	irr::newton::IBody::getNetAppliedForce()
+	_ZN3irr6newton5IBody18getNetAppliedForceEv @ 192
+;	irr::newton::IBody::getNewtonCollision()
+	_ZN3irr6newton5IBody18getNewtonCollisionEv @ 193
+;	irr::newton::IBody::setMatrixRecursive(irr::core::matrix4)
+	_ZN3irr6newton5IBody18setMatrixRecursiveENS_4core7matrix4E @ 194
+;	irr::newton::IBody::setMomentOfInertia(irr::core::vector3d<float>)
+	_ZN3irr6newton5IBody18setMomentOfInertiaENS_4core8vector3dIfEE @ 195
+;	irr::newton::IBody::setNodeMatrixToBody()
+	_ZN3irr6newton5IBody19setNodeMatrixToBodyEv @ 196
+;	irr::newton::IBody::setCoriolisForcesMode(bool)
+	_ZN3irr6newton5IBody21setCoriolisForcesModeEb @ 197
+;	irr::newton::IBody::calculateMomentOfInertia()
+	_ZN3irr6newton5IBody24calculateMomentOfInertiaEv @ 198
+;	irr::newton::IBody::getContinuousCollisionMode()
+	_ZN3irr6newton5IBody26getContinuousCollisionModeEv @ 199
+;	irr::newton::IBody::setContinuousCollisionMode(bool)
+	_ZN3irr6newton5IBody26setContinuousCollisionModeEb @ 200
+;	irr::newton::IBody::init()
+	_ZN3irr6newton5IBody4initEv @ 201
+;	irr::newton::IBody::Create(irr::newton::IWorld*, float)
+	_ZN3irr6newton5IBody6CreateEPNS0_6IWorldEf @ 202
+;	irr::newton::IBody::remove()
+	_ZN3irr6newton5IBody6removeEv @ 203
+;	irr::newton::IBody::getMass()
+	_ZN3irr6newton5IBody7getMassEv @ 204
+;	irr::newton::IBody::getNode()
+	_ZN3irr6newton5IBody7getNodeEv @ 205
+;	irr::newton::IBody::getType()
+	_ZN3irr6newton5IBody7getTypeEv @ 206
+;	irr::newton::IBody::setMass(float)
+	_ZN3irr6newton5IBody7setMassEf @ 207
+;	irr::newton::IBody::addForce(irr::core::vector3d<float>)
+	_ZN3irr6newton5IBody8addForceENS_4core8vector3dIfEE @ 208
+;	irr::newton::IBody::getOmega()
+	_ZN3irr6newton5IBody8getOmegaEv @ 209
+;	irr::newton::IBody::getWorld()
+	_ZN3irr6newton5IBody8getWorldEv @ 210
+;	irr::newton::IBody::setForce(irr::core::vector3d<float>)
+	_ZN3irr6newton5IBody8setForceENS_4core8vector3dIfEE @ 211
+;	irr::newton::IBody::setOmega(irr::core::vector3d<float>)
+	_ZN3irr6newton5IBody8setOmegaENS_4core8vector3dIfEE @ 212
+;	irr::newton::IBody::setScale(irr::core::vector3d<float>)
+	_ZN3irr6newton5IBody8setScaleENS_4core8vector3dIfEE @ 213
+;	irr::newton::IBody::addTorque(irr::core::vector3d<float>)
+	_ZN3irr6newton5IBody9addTorqueENS_4core8vector3dIfEE @ 214
+;	irr::newton::IBody::setFreeze(bool)
+	_ZN3irr6newton5IBody9setFreezeEb @ 215
+;	irr::newton::IBody::setTorque(irr::core::vector3d<float>)
+	_ZN3irr6newton5IBody9setTorqueENS_4core8vector3dIfEE @ 216
+;	irr::newton::IBody::IBody(irr::newton::IWorld*, irr::scene::ISceneNode*, irr::newton::ICollision*, float)
+	_ZN3irr6newton5IBodyC1EPNS0_6IWorldEPNS_5scene10ISceneNodeEPNS0_10ICollisionEf @ 217
+;	irr::newton::IBody::IBody()
+	_ZN3irr6newton5IBodyC1Ev @ 218
+;	irr::newton::IBody::IBody(irr::newton::IWorld*, irr::scene::ISceneNode*, irr::newton::ICollision*, float)
+	_ZN3irr6newton5IBodyC2EPNS0_6IWorldEPNS_5scene10ISceneNodeEPNS0_10ICollisionEf @ 219
+;	irr::newton::IBody::IBody()
+	_ZN3irr6newton5IBodyC2Ev @ 220
+;	irr::newton::IBody::~IBody()
+	_ZN3irr6newton5IBodyD1Ev @ 221
+;	irr::newton::IBody::~IBody()
+	_ZN3irr6newton5IBodyD2Ev @ 222
+;	irr::newton::Hidden::AddObjectToDestroy(irr::newton::IrrNewt_Base*)
+	_ZN3irr6newton6Hidden18AddObjectToDestroyEPNS0_12IrrNewt_BaseE @ 223
+;	irr::newton::IJoint::getStiffness()
+	_ZN3irr6newton6IJoint12getStiffnessEv @ 224
+;	irr::newton::IJoint::setStiffness(float)
+	_ZN3irr6newton6IJoint12setStiffnessEf @ 225
+;	irr::newton::IJoint::reserved_destroy()
+	_ZN3irr6newton6IJoint16reserved_destroyEv @ 226
+;	irr::newton::IJoint::getCollisionState()
+	_ZN3irr6newton6IJoint17getCollisionStateEv @ 227
+;	irr::newton::IJoint::setCollisionState(bool)
+	_ZN3irr6newton6IJoint17setCollisionStateEb @ 228
+;	irr::newton::IJoint::IJoint()
+	_ZN3irr6newton6IJointC1Ev @ 229
+;	irr::newton::IJoint::IJoint()
+	_ZN3irr6newton6IJointC2Ev @ 230
+;	irr::newton::IJoint::~IJoint()
+	_ZN3irr6newton6IJointD1Ev @ 231
+;	irr::newton::IJoint::~IJoint()
+	_ZN3irr6newton6IJointD2Ev @ 232
+;	irr::newton::IUtils::launchCube()
+	_ZN3irr6newton6IUtils10launchCubeEv @ 233
+;	irr::newton::IUtils::getAsFloats(irr::core::array<irr::core::vector3d<float>, irr::core::irrAllocator<irr::core::vector3d<float> > >)
+	_ZN3irr6newton6IUtils11getAsFloatsENS_4core5arrayINS2_8vector3dIfEENS2_12irrAllocatorIS5_EEEE @ 234
+;	irr::newton::IUtils::getTriangles(irr::newton::SPolygon)
+	_ZN3irr6newton6IUtils12getTrianglesENS0_8SPolygonE @ 235
+;	irr::newton::IUtils::randomF64Open()
+	_ZN3irr6newton6IUtils13randomF64OpenEv @ 236
+;	irr::newton::IUtils::getAllVertices(irr::core::array<irr::newton::SPolygon, irr::core::irrAllocator<irr::newton::SPolygon> >)
+	_ZN3irr6newton6IUtils14getAllVerticesENS_4core5arrayINS0_8SPolygonENS2_12irrAllocatorIS4_EEEE @ 237
+;	irr::newton::IUtils::getAllVertices(irr::core::array<irr::core::triangle3d<float>, irr::core::irrAllocator<irr::core::triangle3d<float> > >)
+	_ZN3irr6newton6IUtils14getAllVerticesENS_4core5arrayINS2_10triangle3dIfEENS2_12irrAllocatorIS5_EEEE @ 238
+;	irr::newton::IUtils::getMiddlePoint(irr::scene::ISceneNode*, irr::scene::ISceneNode*)
+	_ZN3irr6newton6IUtils14getMiddlePointEPNS_5scene10ISceneNodeES4_ @ 239
+;	irr::newton::IUtils::getPolysNewton(irr::scene::IMesh*, irr::core::vector3d<float>, float, unsigned int&)
+	_ZN3irr6newton6IUtils14getPolysNewtonEPNS_5scene5IMeshENS_4core8vector3dIfEEfRj @ 240
+;	irr::newton::IUtils::getBodyFromNode(irr::scene::ISceneNode*)
+	_ZN3irr6newton6IUtils15getBodyFromNodeEPNS_5scene10ISceneNodeE @ 241
+;	irr::newton::IUtils::getClosestPoint(irr::core::array<irr::newton::SIntersectionPoint, irr::core::irrAllocator<irr::newton::SIntersectionPoint> >&, irr::core::vector3d<float>)
+	_ZN3irr6newton6IUtils15getClosestPointERNS_4core5arrayINS0_18SIntersectionPointENS2_12irrAllocatorIS4_EEEENS2_8vector3dIfEE @ 242
+;	irr::newton::IUtils::randomF64Closed()
+	_ZN3irr6newton6IUtils15randomF64ClosedEv @ 243
+;	irr::newton::IUtils::updateCameraFPS(irr::newton::IBody*, float, float, irr::newton::SDirection, bool, bool, bool)
+	_ZN3irr6newton6IUtils15updateCameraFPSEPNS0_5IBodyEffNS0_10SDirectionEbbb @ 244
+;	irr::newton::IUtils::reserved_destroy()
+	_ZN3irr6newton6IUtils16reserved_destroyEv @ 245
+;	irr::newton::IUtils::getBodyFromNodeID(int)
+	_ZN3irr6newton6IUtils17getBodyFromNodeIDEi @ 246
+;	irr::newton::IUtils::randomF64HalfOpen()
+	_ZN3irr6newton6IUtils17randomF64HalfOpenEv @ 247
+;	irr::newton::IUtils::calculateTireWidth(irr::scene::ISceneNode*)
+	_ZN3irr6newton6IUtils18calculateTireWidthEPNS_5scene10ISceneNodeE @ 248
+;	irr::newton::IUtils::calculateTireWidth(irr::newton::SCar&)
+	_ZN3irr6newton6IUtils18calculateTireWidthERNS0_4SCarE @ 249
+;	irr::newton::IUtils::buildDefaultRagdoll(irr::core::vector3d<float>, irr::video::ITexture*)
+	_ZN3irr6newton6IUtils19buildDefaultRagdollENS_4core8vector3dIfEEPNS_5video8ITextureE @ 250
+;	irr::newton::IUtils::calculateTireRadius(irr::scene::ISceneNode*)
+	_ZN3irr6newton6IUtils19calculateTireRadiusEPNS_5scene10ISceneNodeE @ 251
+;	irr::newton::IUtils::calculateTireRadius(irr::newton::SCar&)
+	_ZN3irr6newton6IUtils19calculateTireRadiusERNS0_4SCarE @ 252
+;	irr::newton::IUtils::getMeshInfoFromMesh(irr::scene::IMesh*)
+	_ZN3irr6newton6IUtils19getMeshInfoFromMeshEPNS_5scene5IMeshE @ 253
+;	irr::newton::IUtils::getDistanceFromFloor(irr::newton::IBody*, irr::newton::SIntersectionPoint&)
+	_ZN3irr6newton6IUtils20getDistanceFromFloorEPNS0_5IBodyERNS0_18SIntersectionPointE @ 254
+;	irr::newton::IUtils::sortPointsByDistance(irr::core::array<irr::newton::SIntersectionPoint, irr::core::irrAllocator<irr::newton::SIntersectionPoint> >&, irr::core::vector3d<float>)
+	_ZN3irr6newton6IUtils20sortPointsByDistanceERNS_4core5arrayINS0_18SIntersectionPointENS2_12irrAllocatorIS4_EEEENS2_8vector3dIfEE @ 255
+;	irr::newton::IUtils::avoidRotationOnAllAxes(irr::newton::IBody*)
+	_ZN3irr6newton6IUtils22avoidRotationOnAllAxesEPNS0_5IBodyE @ 256
+;	irr::newton::IUtils::calculateCarTiresPosition(irr::newton::SCar, irr::core::vector3d<float>)
+	_ZN3irr6newton6IUtils25calculateCarTiresPositionENS0_4SCarENS_4core8vector3dIfEE @ 257
+;	irr::newton::IUtils::round(irr::core::vector3d<float>&, unsigned int)
+	_ZN3irr6newton6IUtils5roundERNS_4core8vector3dIfEEj @ 258
+;	irr::newton::IUtils::round(float&, unsigned int)
+	_ZN3irr6newton6IUtils5roundERfj @ 259
+;	irr::newton::IUtils::getPolys(irr::scene::IMesh*, irr::core::vector3d<float>, float, unsigned int&)
+	_ZN3irr6newton6IUtils8getPolysEPNS_5scene5IMeshENS_4core8vector3dIfEEfRj @ 260
+;	irr::newton::IUtils::randomS32()
+	_ZN3irr6newton6IUtils9randomS32Ev @ 261
+;	irr::newton::IUtils::IUtils(irr::newton::IWorld*)
+	_ZN3irr6newton6IUtilsC1EPNS0_6IWorldE @ 262
+;	irr::newton::IUtils::IUtils()
+	_ZN3irr6newton6IUtilsC1Ev @ 263
+;	irr::newton::IUtils::IUtils(irr::newton::IWorld*)
+	_ZN3irr6newton6IUtilsC2EPNS0_6IWorldE @ 264
+;	irr::newton::IUtils::IUtils()
+	_ZN3irr6newton6IUtilsC2Ev @ 265
+;	irr::newton::IUtils::~IUtils()
+	_ZN3irr6newton6IUtilsD1Ev @ 266
+;	irr::newton::IWorld::createBody(irr::newton::SBodyFromNode)
+	_ZN3irr6newton6IWorld10createBodyENS0_13SBodyFromNodeE @ 267
+;	irr::newton::IWorld::createBody(irr::scene::ISceneNode*, irr::newton::ICollision*)
+	_ZN3irr6newton6IWorld10createBodyEPNS_5scene10ISceneNodeEPNS0_10ICollisionE @ 268
+;	irr::newton::IWorld::createBody(irr::scene::ISceneNode*, irr::scene::IMesh*, irr::newton::E_BODY_TYPE, float, irr::core::matrix4, irr::core::vector3d<float>, irr::newton::E_CALCULATE_OFFSET, irr::newton::E_CALCULATE_SIZE)
+	_ZN3irr6newton6IWorld10createBodyEPNS_5scene10ISceneNodeEPNS2_5IMeshENS0_11E_BODY_TYPEEfNS_4core7matrix4ENS8_8vector3dIfEENS0_18E_CALCULATE_OFFSETENS0_16E_CALCULATE_SIZEE @ 269
+;	irr::newton::IWorld::getAllCars()
+	_ZN3irr6newton6IWorld10getAllCarsEv @ 270
+;	irr::newton::IWorld::createJoint(irr::newton::SJointBall)
+	_ZN3irr6newton6IWorld11createJointENS0_10SJointBallE @ 271
+;	irr::newton::IWorld::createJoint(irr::newton::SJointHinge)
+	_ZN3irr6newton6IWorld11createJointENS0_11SJointHingeE @ 272
+;	irr::newton::IWorld::createJoint(irr::newton::SJointSlider)
+	_ZN3irr6newton6IWorld11createJointENS0_12SJointSliderE @ 273
+;	irr::newton::IWorld::createJoint(irr::newton::SGenericJoint)
+	_ZN3irr6newton6IWorld11createJointENS0_13SGenericJointE @ 274
+;	irr::newton::IWorld::createJoint(irr::newton::SJointUpVector)
+	_ZN3irr6newton6IWorld11createJointENS0_14SJointUpVectorE @ 275
+;	irr::newton::IWorld::createJoint(irr::newton::SJointCorkscrew)
+	_ZN3irr6newton6IWorld11createJointENS0_15SJointCorkscrewE @ 276
+;	irr::newton::IWorld::createJoint(irr::newton::SJointUniversal)
+	_ZN3irr6newton6IWorld11createJointENS0_15SJointUniversalE @ 277
+;	irr::newton::IWorld::getTimeStep()
+	_ZN3irr6newton6IWorld11getTimeStepEv @ 278
+;	irr::newton::IWorld::createBodies(irr::core::array<irr::scene::ISceneNode*, irr::core::irrAllocator<irr::scene::ISceneNode*> >, irr::newton::SBodyFromNode)
+	_ZN3irr6newton6IWorld12createBodiesENS_4core5arrayIPNS_5scene10ISceneNodeENS2_12irrAllocatorIS6_EEEENS0_13SBodyFromNodeE @ 279
+;	irr::newton::IWorld::destroyWorld()
+	_ZN3irr6newton6IWorld12destroyWorldEv @ 280
+;	irr::newton::IWorld::getAllBodies()
+	_ZN3irr6newton6IWorld12getAllBodiesEv @ 281
+;	irr::newton::IWorld::setWorldSize(irr::core::aabbox3d<float>)
+	_ZN3irr6newton6IWorld12setWorldSizeENS_4core8aabbox3dIfEE @ 282
+;	irr::newton::IWorld::createRagDoll(irr::newton::SRagDoll)
+	_ZN3irr6newton6IWorld13createRagDollENS0_8SRagDollE @ 283
+;	irr::newton::IWorld::createRagDoll()
+	_ZN3irr6newton6IWorld13createRagDollEv @ 284
+;	irr::newton::IWorld::createBodyAuto(irr::scene::ISceneNode*, irr::scene::IMesh*, float, unsigned int, irr::core::matrix4, irr::core::vector3d<float>, irr::newton::E_CALCULATE_OFFSET, irr::newton::E_CALCULATE_SIZE)
+	_ZN3irr6newton6IWorld14createBodyAutoEPNS_5scene10ISceneNodeEPNS2_5IMeshEfjNS_4core7matrix4ENS7_8vector3dIfEENS0_18E_CALCULATE_OFFSETENS0_16E_CALCULATE_SIZEE @ 285
+;	irr::newton::IWorld::createMaterial()
+	_ZN3irr6newton6IWorld14createMaterialEv @ 286
+;	irr::newton::IWorld::createTreeBody(irr::scene::ISceneNode*, irr::scene::IMesh*)
+	_ZN3irr6newton6IWorld14createTreeBodyEPNS_5scene10ISceneNodeEPNS2_5IMeshE @ 287
+;	irr::newton::IWorld::setSolverModel(irr::newton::E_OPTIMIZATION_MODE)
+	_ZN3irr6newton6IWorld14setSolverModelENS0_19E_OPTIMIZATION_MODEE @ 288
+;	irr::newton::IWorld::createCameraFPS(irr::newton::SBodyFromNode)
+	_ZN3irr6newton6IWorld15createCameraFPSENS0_13SBodyFromNodeE @ 289
+;	irr::newton::IWorld::createCollision(irr::newton::SBodyFromNode)
+	_ZN3irr6newton6IWorld15createCollisionENS0_13SBodyFromNodeE @ 290
+;	irr::newton::IWorld::createCollision(irr::core::array<irr::newton::ICollision*, irr::core::irrAllocator<irr::newton::ICollision*> >)
+	_ZN3irr6newton6IWorld15createCollisionENS_4core5arrayIPNS0_10ICollisionENS2_12irrAllocatorIS5_EEEE @ 291
+;	irr::newton::IWorld::createCollision(NewtonCollision*)
+	_ZN3irr6newton6IWorld15createCollisionEP15NewtonCollision @ 292
+;	irr::newton::IWorld::getAllMaterials()
+	_ZN3irr6newton6IWorld15getAllMaterialsEv @ 293
+;	irr::newton::IWorld::getNewtonVersion()
+	_ZN3irr6newton6IWorld16getNewtonVersionEv @ 294
+;	irr::newton::IWorld::reserved_destroy()
+	_ZN3irr6newton6IWorld16reserved_destroyEv @ 295
+;	irr::newton::IWorld::setFrictionModel(irr::newton::E_OPTIMIZATION_MODE)
+	_ZN3irr6newton6IWorld16setFrictionModelENS0_19E_OPTIMIZATION_MODEE @ 296
+;	irr::newton::IWorld::drawAllDebugInfos()
+	_ZN3irr6newton6IWorld17drawAllDebugInfosEv @ 297
+;	irr::newton::IWorld::getAllVehicleTires()
+	_ZN3irr6newton6IWorld18getAllVehicleTiresEv @ 298
+;	irr::newton::IWorld::createVehicleSimple(irr::newton::IBody*, irr::core::vector3d<float>)
+	_ZN3irr6newton6IWorld19createVehicleSimpleEPNS0_5IBodyENS_4core8vector3dIfEE @ 299
+;	irr::newton::IWorld::deserializeTreeBody(irr::scene::ISceneNode*, irr::core::string<char, irr::core::irrAllocator<char> >)
+	_ZN3irr6newton6IWorld19deserializeTreeBodyEPNS_5scene10ISceneNodeENS_4core6stringIcNS5_12irrAllocatorIcEEEE @ 300
+;	irr::newton::IWorld::getCollisionManager()
+	_ZN3irr6newton6IWorld19getCollisionManagerEv @ 301
+;	irr::newton::IWorld::setMinimumFrameRate(float)
+	_ZN3irr6newton6IWorld19setMinimumFrameRateEf @ 302
+;	irr::newton::IWorld::getAllSimpleVehicles()
+	_ZN3irr6newton6IWorld20getAllSimpleVehiclesEv @ 303
+;	irr::newton::IWorld::getInternalBehaviour()
+	_ZN3irr6newton6IWorld20getInternalBehaviourEv @ 304
+;	irr::newton::IWorld::createTerrainTreeBody(irr::scene::ITerrainSceneNode*, int)
+	_ZN3irr6newton6IWorld21createTerrainTreeBodyEPNS_5scene17ITerrainSceneNodeEi @ 305
+;	irr::newton::IWorld::setBodyLeaveWorldEvent(void (*)(irr::newton::IBody*))
+	_ZN3irr6newton6IWorld22setBodyLeaveWorldEventEPFvPNS0_5IBodyEE @ 306
+;	irr::newton::IWorld::setPlatformArchitecture(irr::newton::E_USE_HARDWARE_MODE)
+	_ZN3irr6newton6IWorld23setPlatformArchitectureENS0_19E_USE_HARDWARE_MODEE @ 307
+;	irr::newton::IWorld::createCharacterController(irr::newton::IBody*, bool)
+	_ZN3irr6newton6IWorld25createCharacterControllerEPNS0_5IBodyEb @ 308
+;	irr::newton::IWorld::getAllTreeCollisionBodies()
+	_ZN3irr6newton6IWorld25getAllTreeCollisionBodiesEv @ 309
+;	irr::newton::IWorld::getAllPrimitiveCollisionBodies()
+	_ZN3irr6newton6IWorld30getAllPrimitiveCollisionBodiesEv @ 310
+;	irr::newton::IWorld::clear()
+	_ZN3irr6newton6IWorld5clearEv @ 311
+;	irr::newton::IWorld::update(float)
+	_ZN3irr6newton6IWorld6updateEf @ 312
+;	irr::newton::IWorld::update()
+	_ZN3irr6newton6IWorld6updateEv @ 313
+;	irr::newton::IWorld::getUtils()
+	_ZN3irr6newton6IWorld8getUtilsEv @ 314
+;	irr::newton::IWorld::createCar(irr::newton::SCar)
+	_ZN3irr6newton6IWorld9createCarENS0_4SCarE @ 315
+;	irr::newton::IWorld::IWorld(irr::IrrlichtDevice*)
+	_ZN3irr6newton6IWorldC1EPNS_14IrrlichtDeviceE @ 316
+;	irr::newton::IWorld::IWorld(irr::IrrlichtDevice*)
+	_ZN3irr6newton6IWorldC2EPNS_14IrrlichtDeviceE @ 317
+;	irr::newton::IWorld::~IWorld()
+	_ZN3irr6newton6IWorldD1Ev @ 318
+;	irr::newton::IWorld::~IWorld()
+	_ZN3irr6newton6IWorldD2Ev @ 319
+;	irr::newton::IRagDoll::BuildRadDoll(NewtonRagDoll*, NewtonRagDollBone*, irr::scene::ISceneNode*, irr::core::vector3d<float>, float)
+	_ZN3irr6newton8IRagDoll12BuildRadDollEP13NewtonRagDollP17NewtonRagDollBonePNS_5scene10ISceneNodeENS_4core8vector3dIfEEf @ 320
+;	irr::newton::IRagDoll::setForceToBones(irr::core::vector3d<float>)
+	_ZN3irr6newton8IRagDoll15setForceToBonesENS_4core8vector3dIfEE @ 321
+;	irr::newton::IRagDoll::reserved_destroy()
+	_ZN3irr6newton8IRagDoll16reserved_destroyEv @ 322
+;	irr::newton::IRagDoll::setFreezeToBones(bool)
+	_ZN3irr6newton8IRagDoll16setFreezeToBonesEb @ 323
+;	irr::newton::IRagDoll::setTorqueToBones(irr::core::vector3d<float>)
+	_ZN3irr6newton8IRagDoll16setTorqueToBonesENS_4core8vector3dIfEE @ 324
+;	irr::newton::IRagDoll::setMaterialToBones(irr::newton::IMaterial*)
+	_ZN3irr6newton8IRagDoll18setMaterialToBonesEPNS0_9IMaterialE @ 325
+;	irr::newton::IRagDoll::setAutoFreezeToBones(bool)
+	_ZN3irr6newton8IRagDoll20setAutoFreezeToBonesEb @ 326
+;	irr::newton::IRagDoll::addForceContinuousToBones(irr::core::vector3d<float>)
+	_ZN3irr6newton8IRagDoll25addForceContinuousToBonesENS_4core8vector3dIfEE @ 327
+;	irr::newton::IRagDoll::build(irr::scene::ISceneNode*, float)
+	_ZN3irr6newton8IRagDoll5buildEPNS_5scene10ISceneNodeEf @ 328
+;	irr::newton::IRagDoll::findBone(int)
+	_ZN3irr6newton8IRagDoll8findBoneEi @ 329
+;	irr::newton::IRagDoll::getBones()
+	_ZN3irr6newton8IRagDoll8getBonesEv @ 330
+;	irr::newton::IRagDoll::IRagDoll(irr::newton::IWorld*)
+	_ZN3irr6newton8IRagDollC1EPNS0_6IWorldE @ 331
+;	irr::newton::IRagDoll::IRagDoll(irr::newton::IWorld*)
+	_ZN3irr6newton8IRagDollC2EPNS0_6IWorldE @ 332
+;	irr::newton::IRagDoll::~IRagDoll()
+	_ZN3irr6newton8IRagDollD1Ev @ 333
+;	irr::newton::IRagDoll::~IRagDoll()
+	_ZN3irr6newton8IRagDollD2Ev @ 334
+;	irr::newton::IMaterial::setFriction(irr::newton::IMaterial*, float, float)
+	_ZN3irr6newton9IMaterial11setFrictionEPS1_ff @ 335
+;	irr::newton::IMaterial::setSoftness(irr::newton::IMaterial*, float)
+	_ZN3irr6newton9IMaterial11setSoftnessEPS1_f @ 336
+;	irr::newton::IMaterial::setCollidable(irr::newton::IMaterial*, bool)
+	_ZN3irr6newton9IMaterial13setCollidableEPS1_b @ 337
+;	irr::newton::IMaterial::setElasticity(irr::newton::IMaterial*, float)
+	_ZN3irr6newton9IMaterial13setElasticityEPS1_f @ 338
+;	irr::newton::IMaterial::reserved_destroy()
+	_ZN3irr6newton9IMaterial16reserved_destroyEv @ 339
+;	irr::newton::IMaterial::setCollisionCallback(irr::newton::IMaterial*, irr::newton::IMaterialCollisionCallback*)
+	_ZN3irr6newton9IMaterial20setCollisionCallbackEPS1_PNS0_26IMaterialCollisionCallbackE @ 340
+;	irr::newton::IMaterial::setContinuousCollisionMode(irr::newton::IMaterial*, bool)
+	_ZN3irr6newton9IMaterial26setContinuousCollisionModeEPS1_b @ 341
+;	irr::newton::IMaterial::getID()
+	_ZN3irr6newton9IMaterial5getIDEv @ 342
+;	irr::newton::IMaterial::IMaterial(NewtonWorld*)
+	_ZN3irr6newton9IMaterialC1EP11NewtonWorld @ 343
+;	irr::newton::IMaterial::IMaterial(NewtonWorld*)
+	_ZN3irr6newton9IMaterialC2EP11NewtonWorld @ 344
+;	irr::newton::IMaterial::~IMaterial()
+	_ZN3irr6newton9IMaterialD1Ev @ 345
+;	irr::newton::IMaterial::~IMaterial()
+	_ZN3irr6newton9IMaterialD2Ev @ 346
+;	irr::newton::ITreeBody::deserialize(irr::newton::IWorld*, irr::core::string<char, irr::core::irrAllocator<char> >)
+	_ZN3irr6newton9ITreeBody11deserializeEPNS0_6IWorldENS_4core6stringIcNS4_12irrAllocatorIcEEEE @ 347
+;	irr::newton::ITreeBody::getPolyCount()
+	_ZN3irr6newton9ITreeBody12getPolyCountEv @ 348
+;	irr::newton::ITreeBody::reserved_destroy()
+	_ZN3irr6newton9ITreeBody16reserved_destroyEv @ 349
+;	irr::newton::ITreeBody::getSkippedFaceCount()
+	_ZN3irr6newton9ITreeBody19getSkippedFaceCountEv @ 350
+;	irr::newton::ITreeBody::serialize(irr::core::string<char, irr::core::irrAllocator<char> >)
+	_ZN3irr6newton9ITreeBody9serializeENS_4core6stringIcNS2_12irrAllocatorIcEEEE @ 351
+;	irr::newton::ITreeBody::ITreeBody(irr::newton::IWorld*, irr::scene::ISceneNode*, irr::core::string<char, irr::core::irrAllocator<char> >)
+	_ZN3irr6newton9ITreeBodyC1EPNS0_6IWorldEPNS_5scene10ISceneNodeENS_4core6stringIcNS7_12irrAllocatorIcEEEE @ 352
+;	irr::newton::ITreeBody::ITreeBody(irr::newton::IWorld*, irr::scene::ISceneNode*, irr::newton::ICollision*)
+	_ZN3irr6newton9ITreeBodyC1EPNS0_6IWorldEPNS_5scene10ISceneNodeEPNS0_10ICollisionE @ 353
+;	irr::newton::ITreeBody::ITreeBody(irr::newton::IWorld*, irr::scene::ISceneNode*, irr::core::string<char, irr::core::irrAllocator<char> >)
+	_ZN3irr6newton9ITreeBodyC2EPNS0_6IWorldEPNS_5scene10ISceneNodeENS_4core6stringIcNS7_12irrAllocatorIcEEEE @ 354
+;	irr::newton::ITreeBody::ITreeBody(irr::newton::IWorld*, irr::scene::ISceneNode*, irr::newton::ICollision*)
+	_ZN3irr6newton9ITreeBodyC2EPNS0_6IWorldEPNS_5scene10ISceneNodeEPNS0_10ICollisionE @ 355
+;	irr::newton::ITreeBody::~ITreeBody()
+	_ZN3irr6newton9ITreeBodyD1Ev @ 356
+;	irr::newton::ITreeBody::~ITreeBody()
+	_ZN3irr6newton9ITreeBodyD2Ev @ 357
+;	irr::newton::IVehicleTire::getIrrlichtNode() const
+	_ZNK3irr6newton12IVehicleTire15getIrrlichtNodeEv @ 358
+;	irr::newton::IVehicleTire::getNewtonTireId() const
+	_ZNK3irr6newton12IVehicleTire15getNewtonTireIdEv @ 359
+;	irr::newton::IJoint::getNewtonJoint() const
+	_ZNK3irr6newton6IJoint14getNewtonJointEv @ 360
+;	irr::newton::IWorld::getNewtonWorld() const
+	_ZNK3irr6newton6IWorld14getNewtonWorldEv @ 361
+;	irr::newton::IWorld::getTimeElapsed() const
+	_ZNK3irr6newton6IWorld14getTimeElapsedEv @ 362
+;	irr::newton::IWorld::getIrrlichtDevice() const
+	_ZNK3irr6newton6IWorld17getIrrlichtDeviceEv @ 363
+;	irr::newton::IWorld::getNewtonDefaultMaterialGroupID() const
+	_ZNK3irr6newton6IWorld31getNewtonDefaultMaterialGroupIDEv @ 364
+;	vtable for irr::newton::ICollision
+	_ZTVN3irr6newton10ICollisionE @ 365 DATA
+;	vtable for irr::newton::IJointBall
+	_ZTVN3irr6newton10IJointBallE @ 366 DATA
+;	vtable for irr::newton::IJointHinge
+	_ZTVN3irr6newton11IJointHingeE @ 367 DATA
+;	vtable for irr::newton::IJointSlider
+	_ZTVN3irr6newton12IJointSliderE @ 368 DATA
+;	vtable for irr::newton::IRagDollBone
+	_ZTVN3irr6newton12IRagDollBoneE @ 369 DATA
+;	vtable for irr::newton::IVehicleTire
+	_ZTVN3irr6newton12IVehicleTireE @ 370 DATA
+;	vtable for irr::newton::IrrNewt_Base
+	_ZTVN3irr6newton12IrrNewt_BaseE @ 371 DATA
+;	vtable for irr::newton::ICameraBodyFPS
+	_ZTVN3irr6newton14ICameraBodyFPSE @ 372 DATA
+;	vtable for irr::newton::IJointUpVector
+	_ZTVN3irr6newton14IJointUpVectorE @ 373 DATA
+;	vtable for irr::newton::IVehicleSimple
+	_ZTVN3irr6newton14IVehicleSimpleE @ 374 DATA
+;	vtable for irr::newton::IJointCorkscrew
+	_ZTVN3irr6newton15IJointCorkscrewE @ 375 DATA
+;	vtable for irr::newton::IJointUniversal
+	_ZTVN3irr6newton15IJointUniversalE @ 376 DATA
+;	vtable for irr::newton::ICollisionManager
+	_ZTVN3irr6newton17ICollisionManagerE @ 377 DATA
+;	vtable for irr::newton::ICharacterController
+	_ZTVN3irr6newton20ICharacterControllerE @ 378 DATA
+;	vtable for irr::newton::ICar
+	_ZTVN3irr6newton4ICarE @ 379 DATA
+;	vtable for irr::newton::IBody
+	_ZTVN3irr6newton5IBodyE @ 380 DATA
+;	vtable for irr::newton::IJoint
+	_ZTVN3irr6newton6IJointE @ 381 DATA
+;	vtable for irr::newton::IUtils
+	_ZTVN3irr6newton6IUtilsE @ 382 DATA
+;	vtable for irr::newton::IWorld
+	_ZTVN3irr6newton6IWorldE @ 383 DATA
+;	vtable for irr::newton::IRagDoll
+	_ZTVN3irr6newton8IRagDollE @ 384 DATA
+;	vtable for irr::newton::IMaterial
+	_ZTVN3irr6newton9IMaterialE @ 385 DATA
+;	vtable for irr::newton::ITreeBody
+	_ZTVN3irr6newton9ITreeBodyE @ 386 DATA
+;	non-virtual thunk to irr::newton::ICameraBodyFPS::OnEvent(irr::SEvent)
+	_ZThn236_N3irr6newton14ICameraBodyFPS7OnEventENS_6SEventE @ 387
+;	non-virtual thunk to irr::newton::ICameraBodyFPS::~ICameraBodyFPS()
+	_ZThn236_N3irr6newton14ICameraBodyFPSD0Ev @ 388
+;	non-virtual thunk to irr::newton::ICameraBodyFPS::~ICameraBodyFPS()
+	_ZThn236_N3irr6newton14ICameraBodyFPSD1Ev @ 389

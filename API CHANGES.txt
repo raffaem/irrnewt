@@ -1,0 +1,3 @@
+IBody::autoCalcInertia() is now IBody::calculateMomentOfInertia()
+
+IUtils::avoidRotationOnAllAxis() is now IUtils::avoidRotationOnAllAxes()

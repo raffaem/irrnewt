@@ -1,0 +1,21 @@
+I can't provide precompiled librery for 1.3 because 1.3 has a bug 
+wich make ISceneNode::getTye() always return ESNT_UNKNOW. IrrNewt
+EBT_AUTODETECT body type use this function to retrieve the scene node type and 
+build appropiate body. Many examples of IrrNewt are based on this body type so some examples
+may not work with 1.3 and\or they can't show EBT_AUTODETECT in action
+
+So if you use IrrNewt with 1.3 recompile the dll and the library and remember not to use
+EBT_AUTODETECT but force a body type instead
+
+This bug may be fixed in next version of the engine. 
+But when i wrote this the newest version was 1.3
+
+
+			HOW TO COMPILE FOR 1.3 AND HIGHER
+
+
+open "IrrNewt\include\irrtonewt.hpp" and uncomment "#define COMPILE_WITH_1_3",
+then recompile.
+
+That's all :)
+
